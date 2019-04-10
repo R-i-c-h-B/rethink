@@ -11,9 +11,6 @@ res=r.db('test').table('t1')
 
 res.insert({'key': 2}).run()
 
-
-import time
-
 tend = time.time() + 5
 
 while time.time() < tend:
