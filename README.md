@@ -6,14 +6,14 @@ rethinkupdate.py runs a timed loop that updates the records for a given key in t
 
 As of writing, the code expects the rethinkdb to be at the given ip address and port.
 NB: You need to get the reql_port if you want to connect via reql - ie in code.
-- you can verify that in teh rethink web ui by running:
-  - r.db('rethinkdb').table('server_status')
+You can verify that in teh rethink web ui by running:
+  -- r.db('rethinkdb').table('server_status')
  
 Code currently looks for: 
-  - Database: test 
-  - table: t1
+  -- Database: test 
+  -- table: t1
   
 In rethinkdb webui that would equate to:
-  - r.db('test').table('t1')
+  -- r.db('test').table('t1')
   
   
